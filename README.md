@@ -3,11 +3,10 @@
 **Automotive E/E systems engineer, Munich** · ~10 years in vehicle electronics, from
 embedded software to HIL test automation and CI/CD for ECU validation.
 
-- 🚚 Designed and built, as sole developer over three years, a **GitLab CI/CD system that
+- 🚗 Design Release Engineer on a **Level 4 autonomous-vehicle programme** 
+- 🚚 Designed and built, a **GitLab CI/CD system that
   automates HIL testing** of truck ECU software across 18 ECU types: from a new software
   drop to flashed ECUs, executed test suites and reports, with no manual steps
-- 🚗 Design Release Engineer on a **Level 4 autonomous-vehicle programme** (virtualisation
-  and simulation team)
 - 🔧 Embedded and real-time software: FreeRTOS, Contiki, STM32 / Cortex-M, CAN, K-Line, UDS
 - 🎓 M.Sc. Communications Engineering, **TU München** · iSAQB **CPSA** certified software architect (2022)
 - 🤖 Currently building GenAI skills: RAG and agentic frameworks
