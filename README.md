@@ -1,13 +1,12 @@
 ## Hi, I'm Prajwala Sudi 👋
 
-**Automotive E/E systems engineer, Munich** · ~10 years in vehicle electronics, from
-embedded software to HIL test automation and CI/CD for ECU validation.
+**Software release, CI/CD and configuration management for embedded systems · Munich**<br>
+~10 years in automotive E/E: taking software from a new build to a tested, signed-off release.
 
-- 🚗 Design Release Engineer on a **Level 4 autonomous-vehicle programme** 
-- 🚚 Designed and built, a **GitLab CI/CD system that
-  automates HIL testing** of truck ECU software across 18 ECU types: from a new software
-  drop to flashed ECUs, executed test suites and reports, with no manual steps
-- 🔧 Embedded and real-time software: FreeRTOS, Contiki, STM32 / Cortex-M, CAN, K-Line, UDS
+- 🚗 **Release ownership:** Design Release Engineer on a **Level 4 autonomous-vehicle programme**: design release and sign-off for the Central Gateway, under ASPICE, ISO 26262 and ISO 21434
+- 🚚 **CI/CD at scale:** designed and built a **GitLab CI/CD release-and-test pipeline for 18 truck ECU types**: versioned software drops, quality gates, a priority queue for shared HIL benches and automatic reports, with no manual steps
+- 🧭 **Coordination:** led stand-ups, defined branching and release rules, and worked with Tier-1 suppliers, test and engineering teams on delivery
+- 🔧 **Embedded background:** AUTOSAR communication stack, FreeRTOS, Contiki, STM32 / Cortex-M, CAN, K-Line, UDS
 - 🎓 M.Sc. Communications Engineering, **TU München** · iSAQB **CPSA** certified software architect (2022)
 - 🤖 Currently building GenAI skills: RAG and agentic frameworks
 - 🌍 English (fluent), German (B1), Hindi, Kannada
@@ -16,7 +15,7 @@ embedded software to HIL test automation and CI/CD for ECU validation.
 
 #### [HIL Test Automation Pipeline](https://github.com/prajwalasudi-rgb/HIL-Test-Automation-Pipeline)
 
-A multi-ECU CI/CD pipeline for hardware-in-the-loop testing. A new software drop in a shared folder triggers a preparation pipeline that validates it, generates test suites from the CAN database and sets up the ControlDesk/AutomationDesk projects; jobs then go through a priority queue to the HIL bench, where each ECU is flashed over UDS (a failed flash stops the run) before the tests execute and HTML/JUnit reports are written. An open re-implementation of the architecture of the production system I built for 18 ECU types.
+A release pipeline for multi-ECU software with hardware-in-the-loop testing. A new versioned software drop in a shared folder triggers a preparation pipeline that validates it, generates test suites from the CAN database and sets up the ControlDesk/AutomationDesk projects; jobs then go through a priority queue to the HIL bench, where each ECU is flashed over UDS (a failed flash stops the run) before the tests execute and HTML/JUnit reports are written. An open re-implementation of the architecture of the production system I built for 18 ECU types.
 
 <a href="https://github.com/prajwalasudi-rgb/HIL-Test-Automation-Pipeline"><img src="assets/hil.png" alt="HIL Test Automation Pipeline architecture" width="100%"></a>
 
@@ -56,6 +55,7 @@ Master thesis (TU München): pose estimation by fusing 2D and 3D camera measurem
 
 ### Skills
 
+**Release & configuration management:** release planning and sign-off, quality gates, branching strategies, versioned artifacts, Jira, Scrum/Kanban, ASPICE, ISO 26262, ISO 21434<br>
 **Automotive:** HIL testing (dSPACE ControlDesk, AutomationDesk, ConfigurationDesk), CANalyzer/CANoe,
 CAN/J1939, K-Line, UDS diagnostics and flashing, ECU integration and validation, autonomous driving programmes<br>
 **Software:** Python, C, C++, MATLAB/Simulink · FreeRTOS, Contiki · CI/CD (GitLab CI, GitHub Actions) · Git, SVN<br>
