@@ -16,7 +16,7 @@ embedded software to HIL test automation and CI/CD for ECU validation.
 
 #### [HIL Test Automation Pipeline](https://github.com/prajwalasudi-rgb/HIL-Test-Automation-Pipeline)
 
-A multi-ECU CI/CD pipeline for hardware-in-the-loop testing. A new software drop in a shared folder triggers a preparation pipeline that validates it, generates test suites from the CAN database and sets up the ControlDesk/AutomationDesk projects; jobs then go through a priority queue to the HIL bench, where each ECU is flashed over UDS (a failed flash stops the run) before the tests execute and HTML/JUnit reports are written. An open re-implementation of the architecture of the production system I built alone over three years for 18 ECU types.
+A multi-ECU CI/CD pipeline for hardware-in-the-loop testing. A new software drop in a shared folder triggers a preparation pipeline that validates it, generates test suites from the CAN database and sets up the ControlDesk/AutomationDesk projects; jobs then go through a priority queue to the HIL bench, where each ECU is flashed over UDS (a failed flash stops the run) before the tests execute and HTML/JUnit reports are written. An open re-implementation of the architecture of the production system I built for 18 ECU types.
 
 <a href="https://github.com/prajwalasudi-rgb/HIL-Test-Automation-Pipeline"><img src="assets/hil.png" alt="HIL Test Automation Pipeline architecture" width="100%"></a>
 
